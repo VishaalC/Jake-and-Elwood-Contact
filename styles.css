@@ -55,7 +55,7 @@ img {
 
 .hero {
   color: #ffff;
-  background-image: url(img\hero-bg.jpg);
+  background-image: url('./img/hero-bg.jpg');
   background-size: cover;
   background-position: bottom;
 }
