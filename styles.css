@@ -89,6 +89,7 @@ img {
   font-weight: 700;
   padding: 0.5em 1.75em;
   justify-self: start;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -100,6 +101,11 @@ img {
   padding: 0.7em 2.9em;
   justify-self: end;
   font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ffc400;
 }
 
 .info {
@@ -411,6 +417,7 @@ img {
 
   .main-text {
     grid-column: 3 / span 2;
+    margin-left: 1em;
   }
 }
 
@@ -435,5 +442,6 @@ input {
 @media (min-width: 600px) {
   .contact-main {
     grid-column: 3 / span 2;
+    margin-left: 1em;
   }
 }
